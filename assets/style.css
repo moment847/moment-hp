@@ -206,6 +206,7 @@ dl{ margin:0; }
 .section-lead{ color:var(--ink-2); max-width:var(--w-text); margin:0 0 40px; }
 .section-head{ display:flex; align-items:flex-end; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:36px; }
 .section-head .section-title{ margin:0; }
+.section-head .section-lead{ margin:8px 0 0; }
 .section-head .more{ font-size:14px; font-weight:500; border-bottom:1px solid var(--navy); padding-bottom:2px; }
 .section-head .more:hover{ text-decoration:none; opacity:.7; }
 

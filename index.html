@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Old+Mincho&display=swap">
 <link rel="stylesheet" href="assets/style.css">
 <script>document.documentElement.className+=" js";</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"moment株式会社","url":"https://moment-tokyo.jp/","email":"hello@moment-tokyo.jp","foundingDate":"2026-05","address":{"@type":"PostalAddress","postalCode":"150-0001","addressRegion":"東京都","addressLocality":"渋谷区","streetAddress":"神宮前5-51-8 ラ・ポルト青山2F-7"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://moment-tokyo.jp/#organization", "name": "moment株式会社", "alternateName": "moment", "url": "https://moment-tokyo.jp/", "logo": "https://moment-tokyo.jp/assets/img/logo.svg", "image": "https://moment-tokyo.jp/assets/img/ogp.png", "email": "hello@moment-tokyo.jp", "foundingDate": "2026-05", "founder": {"@type": "Person", "name": "佐々木 雄光", "jobTitle": "代表取締役"}, "numberOfEmployees": {"@type": "QuantitativeValue", "value": 48}, "address": {"@type": "PostalAddress", "postalCode": "150-0001", "addressCountry": "JP", "addressRegion": "東京都", "addressLocality": "渋谷区", "streetAddress": "神宮前5-51-8 ラ・ポルト青山2F-7"}, "description": "東京・渋谷区神宮前の会社。AIを使った受託開発、ITエンジニア・コンサルタントの案件マッチング（SES）、法人営業代行、経営者向けAI研修（COMPASS AI）の4つの事業を行う。", "knowsAbout": ["AI受託開発", "生成AI", "SES", "ITコンサルタント紹介", "法人営業代行", "AI研修"], "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "email": "hello@moment-tokyo.jp", "url": "https://moment-tokyo.jp/contact.html", "availableLanguage": "ja"}}, {"@type": "WebSite", "@id": "https://moment-tokyo.jp/#website", "name": "moment株式会社", "url": "https://moment-tokyo.jp/", "inLanguage": "ja", "publisher": {"@id": "https://moment-tokyo.jp/#organization"}}]}</script>
 </head>
 <body class="home">
 <div class="ornament ornament--l" aria-hidden="true"></div>
@@ -49,7 +49,7 @@
 <!-- スクロール連動の導入部。JSが無い／動きを減らす設定では、静止画＋通常の見出しに落ちる -->
 <section class="story" id="story" data-frames="96" data-frames-l="assets/img/frames/l/" data-frames-s="assets/img/frames/s/">
   <div class="story-stage">
-    <img class="story-poster" src="assets/img/hero-poster.jpg" alt="" width="1152" height="617" fetchpriority="high">
+    <img class="story-poster" src="assets/img/hero-poster.jpg" alt="夜の日本列島の光と、それをつなぐネットワークの線のイメージ" width="1152" height="617" fetchpriority="high">
     <canvas class="story-canvas" aria-hidden="true"></canvas>
     <div class="story-shade" aria-hidden="true"></div>
 
@@ -106,13 +106,16 @@
 <section class="section" id="services">
   <div class="container">
     <div class="section-head">
-      <h2 class="section-title">事業内容</h2>
+      <div>
+        <h2 class="section-title">事業内容</h2>
+        <p class="section-lead">momentは受託開発、SES・コンサルマッチング、営業代行、AI法人研修の4つの事業を、東京・渋谷区神宮前の拠点から行っています。</p>
+      </div>
       <a class="more" href="services.html">4つの事業を詳しく見る</a>
     </div>
     <div class="biz-grid">
 
       <a class="biz-card" href="development.html">
-        <div class="biz-mark"><img src="assets/img/marks/dev.jpg" alt="" width="1200" height="675" loading="lazy"></div>
+        <div class="biz-mark"><img src="assets/img/marks/dev.jpg" alt="コードが表示されたノートパソコンと歯車のイラスト（受託開発）" width="1200" height="675" loading="lazy"></div>
         <span class="biz-kind">AIを使った受託開発</span>
         <h3 class="biz-name">受託開発</h3>
         <p class="biz-desc">チャットボット、需要予測、図面からの自動見積もりなど、業務に組み込むAIシステムを作ります。作ったあとは現場で使われるまで運用と効果測定を続けます。</p>
@@ -120,7 +123,7 @@
       </a>
 
       <a class="biz-card" href="services.html#ses">
-        <div class="biz-mark"><img src="assets/img/marks/matching.jpg" alt="" width="1200" height="675" loading="lazy"></div>
+        <div class="biz-mark"><img src="assets/img/marks/matching.jpg" alt="自社開発の案件・人材照合ツールの画面を表示したノートパソコン（SES・コンサルマッチング）" width="1200" height="675" loading="lazy"></div>
         <span class="biz-kind">ITエンジニア・コンサルタントの案件マッチング</span>
         <h3 class="biz-name">SES・コンサルマッチング</h3>
         <p class="biz-desc">100社を超える提携先のエンジニアとITコンサルタントを、案件に合わせてご紹介します。案件と人材の照合には自社開発のツール「おまかせくん」を使っています。</p>
@@ -128,7 +131,7 @@
       </a>
 
       <a class="biz-card" href="services.html#sales">
-        <div class="biz-mark"><img src="assets/img/marks/sales.jpg" alt="" width="1200" height="675" loading="lazy"></div>
+        <div class="biz-mark"><img src="assets/img/marks/sales.jpg" alt="右肩上がりの棒グラフと的に刺さった矢のイラスト（営業代行）" width="1200" height="675" loading="lazy"></div>
         <span class="biz-kind">法人営業代行</span>
         <h3 class="biz-name">営業代行</h3>
         <p class="biz-desc">通信回線、エネルギー、業務改善ツールなどを、全国の中小企業の経営者に対面で提案します。学生を中心とした営業組織で動いています。</p>
@@ -136,7 +139,7 @@
       </a>
 
       <a class="biz-card" href="services.html#compass">
-        <div class="biz-mark"><img src="assets/img/marks/compass.jpg" alt="" width="1200" height="675" loading="lazy"></div>
+        <div class="biz-mark"><img src="assets/img/marks/compass.jpg" alt="方位磁針のイラスト（AI法人研修 COMPASS AI）" width="1200" height="675" loading="lazy"></div>
         <span class="biz-kind">経営者向けAI研修</span>
         <h3 class="biz-name">AI法人研修</h3>
         <p class="biz-desc">経営者ご本人に、生成AIの使い方から自社業務への落とし込みまでをマンツーマンで教えます。全3回・各120分、2週間で終わります。</p>
@@ -180,7 +183,10 @@
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <h2 class="section-title">実績</h2>
+      <div>
+        <h2 class="section-title">実績</h2>
+        <p class="section-lead">教育（上場企業）、製造、水産などの業種で、業務に組み込むAIシステムを開発してきました。</p>
+      </div>
       <a class="more" href="works.html">すべての実績</a>
     </div>
     <ul class="works">
@@ -203,7 +209,10 @@
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <h2 class="section-title">ニュース</h2>
+      <div>
+        <h2 class="section-title">ニュース</h2>
+        <p class="section-lead">moment株式会社からのお知らせです。</p>
+      </div>
       <a class="more" href="news.html">一覧</a>
     </div>
     <ul class="news">

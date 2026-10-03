@@ -19,3 +19,8 @@ HTML、assets/style.css、assets/site.js、画像を編集し、main ブラン�
 ## メールと別サイト
 
 メール用DNSレコードは別に管理しています。既存のMX・TXT・メール関連レコードを維持してください。actify はお名前.com、compass は Vercel の既存設定を維持しています。
+
+## AI検索・クローラ向けファイル
+
+- robots.txt / sitemap.xml / llms.txt はサイトのルートに置いています。ページを追加・削除したら sitemap.xml と llms.txt も更新してください。
+- 各ページの `<head>` に JSON-LD（Organization、トップは WebSite、下層は BreadcrumbList）を入れています。会社情報を変えたら全ページの JSON-LD も合わせて直してください。
