@@ -2,17 +2,17 @@
 
 > Shape the Moment. 人の意志とテクノロジーで変化をつくる。構想から現場の実行まで、徹底した伴走と圧倒的なスピード感で支援します。
 
-## 基本サービス
+## AIソリューション
 
-- [AI／DX健康診断](https://moment-tokyo.jp/#diagnosis): 現状分析、課題特定、成果の可視化と実行プラン。無料ヒアリングから開始
 - [AI研修](https://moment-tokyo.jp/#training): 全11時間の研修と3ヶ月間のチャットフォロー。1人20万円税別。補助金は適用条件・審査あり
 - [AI顧問](https://moment-tokyo.jp/#advisory): AI戦略、業務改善、ツール選定、社内研修設計。ライト・スタンダード・プレミアム。開発作業は含まない
 - [AX Launch](https://moment-tokyo.jp/#ax-launch): AIコンサルティングと専用AIエージェントの開発・導入。月額40万円／社、6ヶ月。AI・クラウド利用料等は別途
 - [受託開発](https://moment-tokyo.jp/#development): フルオーダーのシステム開発。スモール100万円〜、スタンダード500万円〜、エンタープライズ要相談。税別、規模・要件により異なる
 
+- [FDE](https://moment-tokyo.jp/#fde): 現場に入り込むAIエンジニア
+
 ## その他の事業と会社情報
 
-- [FDE](https://moment-tokyo.jp/#fde): 現場に入り込むAIエンジニア
 - [営業代行](https://moment-tokyo.jp/#sales): 法人向け・個人向けの営業活動支援
 - [教育事業 Actify](https://actify.moment-tokyo.jp/): 大学受験に向けたオンライン学習コーチング
 - [代表挨拶](https://moment-tokyo.jp/message.html): 人の意志が、世界を動かす。代表取締役 佐々木 雄光

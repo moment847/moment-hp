@@ -11,3 +11,11 @@
 
 .message-teaser-photo{display:flex;align-items:center;background:#ececec}.message-teaser-photo img{height:auto;object-fit:contain}.offering-price>strong{font-size:clamp(24px,2.8vw,37px)}
 @media(max-width:760px){.hero-intent{display:block}.hero-intent>p{margin-top:14px;font-size:11px}.hero-intent .pill-link{margin-top:22px}.hero-intent h2{font-size:24px}}
+/* Brand city visual sits behind the opening headline. */
+.shape-hero-background{isolation:isolate;min-height:max(740px,56.3vw);padding-top:220px;padding-bottom:34px;display:flex;flex-direction:column;justify-content:space-between;background:#e9e7e2}
+.hero-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:-2}
+.shape-hero-background:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#fbfaf7 0,#fbfaf7 210px,#fbfaf7e8 255px,#fbfaf7a6 48%,#fbfaf712 76%,#0005 100%)}
+.shape-hero-background .hero-words{align-items:center}.shape-hero-background .hero-words>.eyebrow{margin-bottom:32px}.shape-hero-background .hero-scroll{color:#fff;border-color:#ffffff6b;margin-top:170px}.shape-hero-background .hero-intent{padding-bottom:0}.shape-hero-background .pill-link{background:#ffffffc7}.shape-hero-background .pill-link:hover{background:#191919}
+.offering-visual{min-height:0;align-self:start;aspect-ratio:3/2;position:sticky;top:140px}.offering-visual>img{display:block;object-position:center!important}.offering-number{mix-blend-mode:normal;color:white;text-shadow:0 1px 12px #0009}.offering-price>strong{font-size:clamp(22px,2.3vw,32px)}
+@media(prefers-reduced-motion:no-preference){.hero-background{animation:image-settle 1.9s ease-out both}}
+@media(max-width:760px){.shape-hero-background{padding-top:140px;min-height:790px;padding-bottom:22px}.shape-hero-background:before{background:linear-gradient(180deg,#fbfaf7 0,#fbfaf7 120px,#fbfaf7e8 220px,#fbfaf7b5 53%,#fbfaf730 76%,#0006 100%)}.shape-hero-background .hero-words>.eyebrow{margin-bottom:25px}.shape-hero-background .hero-scroll{margin-top:130px}.offering-visual{position:relative;top:auto;aspect-ratio:3/2;height:auto;min-height:0}.offering-visual>img{height:auto;aspect-ratio:3/2;object-fit:cover}.shape-hero-background .hero-intent{margin-top:25px}}
