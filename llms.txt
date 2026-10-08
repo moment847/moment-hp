@@ -15,7 +15,7 @@
 
 - [営業代行](https://moment-tokyo.jp/#sales): 法人向け・個人向けの営業活動支援
 - [教育事業 Actify](https://actify.moment-tokyo.jp/): 大学受験に向けたオンライン学習コーチング
-- [代表挨拶](https://moment-tokyo.jp/message.html): 人の意志が、世界を動かす。代表取締役 佐々木 雄光
+- [代表・役員挨拶](https://moment-tokyo.jp/message.html): 人の意志が、世界を動かす。代表取締役 佐々木 雄光。開発事業部責任者 赤本陽大、AX事業部責任者 齋藤新太、営業事業部責任者 小川真弘の挨拶
 - [会社概要](https://moment-tokyo.jp/#company): 2026年設立。東京都渋谷区神宮前5-51-8 ラ・ポルト青山2F-7
 - [採用情報](https://moment-tokyo.jp/#careers): 営業・エンジニアインターン
 - [お問い合わせ](https://moment-tokyo.jp/#contact): hello@moment-tokyo.jp
