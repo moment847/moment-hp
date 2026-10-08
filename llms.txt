@@ -1,25 +1,21 @@
 # moment株式会社
 
-> moment株式会社は東京都渋谷区神宮前の会社です（2026年5月設立、代表取締役 佐々木 雄光、48名・業務委託を含む）。AIを使った受託開発、ITエンジニア・コンサルタントの案件マッチング（SES）、法人営業代行、経営者向けAI研修（COMPASS AI）の4つの事業を行っています。
+> Shape the Moment. 人の意志とテクノロジーで変化をつくる。構想から現場の実行まで、徹底した伴走と圧倒的なスピード感で支援します。
 
-## サービス
+## 基本サービス
 
-- [事業内容](https://moment-tokyo.jp/services.html): 4つの事業の概要と、事業どうしのつながり
-- [受託開発](https://moment-tokyo.jp/development.html): AIを使った受託開発。業務診断・試作（PoC）だけでなく、実装・運用改善・効果検証までの5工程を引き受ける
-- [SES・コンサルマッチング](https://moment-tokyo.jp/services.html#ses): 上場企業を含む100社超の提携先から、案件に合うエンジニア・ITコンサルタントを紹介。照合には自社開発ツール「おまかせくん」を使用
-- [営業代行](https://moment-tokyo.jp/services.html#sales): 通信回線・エネルギー・業務改善ツールなどを、全国の中小企業の経営者に対面で提案
-- [AI法人研修 COMPASS AI](https://moment-tokyo.jp/services.html#compass): 経営者・役員向けのマンツーマン研修。全3回・各120分・2週間。全3回 60,000円／単発 20,000円
-- [実績](https://moment-tokyo.jp/works.html): 教育（上場企業）・製造・不動産・出版・水産などでの受託開発の事例（チャットボット、需要予測、CAD図面からの自動見積もり、地価予測、社内文書検索）
+- [AI／DX健康診断](https://moment-tokyo.jp/#diagnosis): 現状分析、課題特定、成果の可視化と実行プラン。無料ヒアリングから開始
+- [AI研修](https://moment-tokyo.jp/#training): 全11時間の研修と3ヶ月間のチャットフォロー。1人20万円税別。補助金は適用条件・審査あり
+- [AI顧問](https://moment-tokyo.jp/#advisory): AI戦略、業務改善、ツール選定、社内研修設計。ライト・スタンダード・プレミアム。開発作業は含まない
+- [AX Launch](https://moment-tokyo.jp/#ax-launch): AIコンサルティングと専用AIエージェントの開発・導入。月額40万円／社、6ヶ月。AI・クラウド利用料等は別途
+- [受託開発](https://moment-tokyo.jp/#development): フルオーダーのシステム開発。スモール100万円〜、スタンダード500万円〜、エンタープライズ要相談。税別、規模・要件により異なる
 
-## 会社情報
+## その他の事業と会社情報
 
-- [会社概要](https://moment-tokyo.jp/about.html): ミッション・代表メッセージ・会社概要・沿革
-- [ニュース](https://moment-tokyo.jp/news.html): お知らせ
-- [採用情報](https://moment-tokyo.jp/careers.html): エンジニア・営業・人材コーディネーターの募集
-- [お問い合わせ](https://moment-tokyo.jp/contact.html): 相談・協業・取材・採用の窓口。2営業日以内に返信。メール hello@moment-tokyo.jp
-- [プライバシーポリシー](https://moment-tokyo.jp/privacy.html): 個人情報の取り扱い
-
-## 所在地・連絡先
-
-- 〒150-0001 東京都渋谷区神宮前5-51-8 ラ・ポルト青山2F-7
-- hello@moment-tokyo.jp
+- [FDE](https://moment-tokyo.jp/#fde): 現場に入り込むAIエンジニア
+- [営業代行](https://moment-tokyo.jp/#sales): 法人向け・個人向けの営業活動支援
+- [教育事業 Actify](https://actify.moment-tokyo.jp/): 大学受験に向けたオンライン学習コーチング
+- [代表挨拶](https://moment-tokyo.jp/message.html): 人の意志が、世界を動かす。代表取締役 佐々木 雄光
+- [会社概要](https://moment-tokyo.jp/#company): 2026年設立。東京都渋谷区神宮前5-51-8 ラ・ポルト青山2F-7
+- [採用情報](https://moment-tokyo.jp/#careers): 営業・エンジニアインターン
+- [お問い合わせ](https://moment-tokyo.jp/#contact): hello@moment-tokyo.jp
