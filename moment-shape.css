@@ -22,3 +22,6 @@
 
 .shape-hero-background .hero-words{display:block}.shape-hero-background .hero-words h1{max-width:850px;font-size:clamp(78px,10.2vw,155px)}
 @media(max-width:760px){.shape-hero-background .hero-words h1{font-size:clamp(62px,18vw,115px)}.shape-hero-background{min-height:720px}.shape-hero-background .hero-scroll{margin-top:200px}}
+
+/* Display the supplied AIchiAI artwork in full without legacy zoom/cropping. */
+.partners .partner-logo img[alt="AIchiAI"]{object-fit:contain;object-position:center;transform:none;background:#08214d}
