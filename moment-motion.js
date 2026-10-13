@@ -36,11 +36,7 @@
     }
   },{threshold:0,rootMargin:'0px 0px -12% 0px'});
   elements.forEach(el=>observer.observe(el));
-  // The hero also replays on a fresh visit; no per-session suppression.
-  if(!reduced.matches&&!location.hash){
-    const cut=document.createElement('div');cut.className='moment-cutin';cut.setAttribute('aria-hidden','true');
-    document.body.append(cut);setTimeout(()=>cut.remove(),1150);
-  }
   reduced.addEventListener('change',()=>{active.forEach(a=>a.cancel());active.clear();document.querySelector('.moment-cutin')?.remove()});
   addEventListener('pageshow',e=>{if(e.persisted){elements.forEach(el=>{el.dataset.motionState='ready';observer.unobserve(el);observer.observe(el)})}});
 })();
+
