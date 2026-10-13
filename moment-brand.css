@@ -1,12 +1,17 @@
-.header .brand img,header>a:first-child img{width:110px;height:76px;object-fit:contain;transform:none;mix-blend-mode:multiply}
-.brand img{width:116px;height:auto;object-fit:contain;mix-blend-mode:multiply}
-.footer-top>a>img{width:160px;height:auto;object-fit:contain;transform:none;mix-blend-mode:multiply}
+.header .brand img,header>a:first-child img{width:110px;height:76px;object-fit:contain;transform:none;mix-blend-mode:normal}
+.brand img{width:116px;height:auto;object-fit:contain;mix-blend-mode:normal}
+.footer-top>a>img{width:160px;height:auto;object-fit:contain;transform:none;mix-blend-mode:normal}
 .moment-logo-intro{position:fixed;inset:0;z-index:1100;display:grid;place-items:center;background:rgba(250,249,246,.98);pointer-events:none;animation:logo-stage 2.8s ease both}
 .moment-logo-intro__scene{position:relative;perspective:900px;width:min(64vw,360px)}
-.moment-logo-intro__image{display:block;width:100%;height:auto;mix-blend-mode:multiply;transform-origin:center;animation:logo-levitate 2.8s cubic-bezier(.2,.65,.2,1) both;filter:drop-shadow(0 25px 25px rgba(50,35,22,.11))}
+.moment-logo-intro__image{display:block;width:100%;height:auto;mix-blend-mode:normal;transform-origin:center;animation:logo-levitate 2.8s cubic-bezier(.2,.65,.2,1) both;filter:drop-shadow(0 25px 25px rgba(50,35,22,.11))}
 .moment-logo-intro__shadow{position:absolute;width:60%;height:16px;left:20%;bottom:-30px;border-radius:50%;background:rgba(65,42,24,.2);filter:blur(12px);animation:logo-shadow 2.8s ease both}
 @keyframes logo-stage{0%,72%{opacity:1}100%{opacity:0;visibility:hidden}}
 @keyframes logo-levitate{0%{opacity:0;transform:translateY(42px) rotateX(12deg) scale(.92);filter:blur(8px) drop-shadow(0 8px 10px rgba(50,35,22,.06))}28%{opacity:1;transform:translateY(-10px) rotateX(0) scale(1);filter:blur(0) drop-shadow(0 25px 25px rgba(50,35,22,.11))}53%{opacity:1;transform:translateY(-18px) rotateX(-2deg) scale(1.015)}73%{opacity:1;transform:translateY(-10px) rotateX(0) scale(1)}100%{opacity:0;transform:translateY(-38px) scale(1.025)}}
 @keyframes logo-shadow{0%{opacity:0;transform:scale(.75)}30%{opacity:.6;transform:scale(1)}55%{opacity:.3;transform:scale(.88)}73%{opacity:.5;transform:scale(1)}100%{opacity:0;transform:scale(1.1)}}
 @media(max-width:760px){.header .brand img,header>a:first-child img{width:92px;height:62px}.moment-logo-intro__scene{width:min(72vw,310px)}}
 @media(prefers-reduced-motion:reduce){.moment-logo-intro{animation:logo-stage .6s ease both}.moment-logo-intro__image{animation:none;transform:none;filter:none}.moment-logo-intro__shadow{display:none}}
+
+/* Header shows only the symbol and wordmark; the full lockup remains elsewhere. */
+.header .brand,header>a:first-child:has(img[src*="moment-logo-transparent"]){display:block;width:112px;height:68px;overflow:hidden;flex-shrink:0}
+.header .brand img,header>a:first-child img[src*="moment-logo-transparent"]{display:block;width:112px;height:auto;max-width:none;object-fit:contain;clip-path:inset(0 0 18% 0)}
+@media(max-width:760px){.header .brand,header>a:first-child:has(img[src*="moment-logo-transparent"]){width:96px;height:58px}.header .brand img,header>a:first-child img[src*="moment-logo-transparent"]{width:96px;height:auto}}

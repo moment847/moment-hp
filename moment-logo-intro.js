@@ -1,6 +1,6 @@
 (()=>{
   const reduced=matchMedia('(prefers-reduced-motion: reduce)');
-  const image=new Image();image.src='/moment-logo-v3.png';image.alt='';image.width=554;image.height=410;image.className='moment-logo-intro__image';
+  const image=new Image();image.src='/moment-logo-transparent.webp';image.alt='';image.width=554;image.height=410;image.className='moment-logo-intro__image';
   let started=false;
   const show=()=>{
     if(started)return;started=true;
