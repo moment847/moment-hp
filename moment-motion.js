@@ -18,6 +18,7 @@
       const box=entry.target;
       if(entry.isIntersecting){
         if(box.dataset.motionState==='shown')continue;
+        if(reduced.matches){observer.unobserve(box);continue;}
         box.dataset.motionState='shown';
         const photo=box.matches('.offering-visual,.beyond-image,.recruit>figure');
         const target=photo?box.querySelector('img'):box;
@@ -27,11 +28,9 @@
           [{opacity:.65},{opacity:1}]:
           photo?[{clipPath:'inset(0 100% 0 0)',transform:'scale(1.04)'},{clipPath:'inset(0 0% 0 0)',transform:'scale(1)'}]:
           [{opacity:.12,transform:'translateY(34px)'},{opacity:1,transform:'translateY(0)'}];
-        const animation=target.animate(frames,{duration:reduced.matches?180:photo?1150:850,easing:'cubic-bezier(.16,1,.3,1)',fill:'none'});
+        const animation=target.animate(frames,{duration:photo?700:550,easing:'cubic-bezier(.16,1,.3,1)',fill:'none'});
         active.set(box,animation);
         animation.onfinish=()=>active.delete(box);
-      }else if(entry.boundingClientRect.bottom<=0||entry.boundingClientRect.top>=innerHeight){
-        box.dataset.motionState='ready';
       }
     }
   },{threshold:0,rootMargin:'0px 0px -12% 0px'});
