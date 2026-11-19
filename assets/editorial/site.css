@@ -58,10 +58,10 @@ summary::-webkit-details-marker { display: none; }
 .cover::after { content: ""; pointer-events: none; z-index: -1; background: linear-gradient(0deg,rgba(23,18,15,.50),transparent 20%); }
 .cover-inner { height: 100%; position: relative; padding: clamp(64px,12vh,150px) var(--edge) 0; max-width: 1940px; margin: auto; }
 .cover h1 { display: grid; justify-items: start; line-height: .96; }
-.cover h1 [lang="en"] { font: italic 400 clamp(110px,15.3vw,286px)/.96 var(--serif); letter-spacing: -.072em; margin-left: -.055em; }
+.cover h1 [lang="en"] { font: 400 clamp(77px,9.9vw,182px)/1.02 var(--serif); letter-spacing: -.06em; margin-left: -.055em; }
+.cover-name em { font-style: italic; }
 .cover-jp { margin-top: clamp(16px,2.4vh,32px); font-size: clamp(27px,3.35vw,68px); line-height: 1.48; letter-spacing: .095em; }
-.cover-floor { position: absolute; inset: auto var(--edge) clamp(20px,3.7vh,48px); display: flex; align-items: center; justify-content: space-between; color: #fffaf2; }
-.tagline { font: italic 400 clamp(20px,1.9vw,36px)/1.25 var(--serif); }
+.cover-floor { position: absolute; inset: auto var(--edge) clamp(20px,3.7vh,48px); display: flex; align-items: center; justify-content: flex-end; color: #fffaf2; }
 .scroll-link { display: inline-flex; align-items: center; gap: 12px; padding: 9px 1px; color: inherit; text-decoration: none; font-size: 12px; letter-spacing: .08em; }
 .scroll-link i { display: block; height: 26px; width: 1px; position: relative; background: currentColor; }
 .scroll-link i::after { content: ""; position: absolute; width: 6px; height: 6px; border-bottom: 1px solid; border-right: 1px solid; transform: rotate(45deg); bottom: 0; left: -2.5px; }
@@ -257,7 +257,8 @@ details[open]>summary .plus::after { transform:rotate(0); }
   .cover { height:calc(92svh - var(--brand-height)); min-height:480px; max-height:840px; }
   .cover-image { object-position:54% 57%; }
   .cover-inner { padding-top:clamp(42px,9svh,95px); }
-  .cover h1 [lang="en"] { font-size:clamp(76px,21.4vw,145px); }
+  .cover h1 [lang="en"] { font-size:clamp(68px,17.7vw,115px); line-height:.9; }
+  .cover-name em { display:block; margin-left:.48em; }
   .cover-jp { font-size:clamp(23px,6.8vw,44px); margin-top:16px; }
   .cover-floor { bottom:18px; }
   .eyebrow { margin-bottom:17px; }

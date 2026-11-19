@@ -4,7 +4,7 @@ https://www.moment-tokyo.jp/ の静的サイトです。
 
 ## 更新と自動公開
 
-HTML、assets/humanity/site.css、assets/humanity/site.js、画像を編集し、main ブランチにコミットすると Cloudflare Pages が自動公開します。
+HTML、assets/editorial/site.css、assets/editorial/site.js、画像を編集し、main ブランチにコミットすると Cloudflare Pages が自動公開します。
 
 ## 公開設定
 
