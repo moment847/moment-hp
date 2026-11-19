@@ -309,3 +309,12 @@ details[open]>summary .plus::after { transform:rotate(0); }
 @media (prefers-reduced-motion:no-preference) {
   .quiet .text-link:hover .direction { transform: none; }
 }
+.bar-feature { display:grid; grid-template-columns:1fr 1fr; gap:clamp(35px,8vw,140px); align-items:center; margin-top:clamp(32px,5vw,82px); padding-block:clamp(35px,5vw,82px); border-block:1px solid #a59a88; }
+.bar-name h3 { color:#532c22; font:400 clamp(52px,7.9vw,133px)/1 var(--serif); letter-spacing:-.045em; }
+.bar-name p,.opening-note { font-size:13px; color:var(--soft); }
+.bar-name p { margin-top:12px; }
+.bar-copy h4 { font:500 clamp(24px,2.4vw,45px)/1.5 var(--mincho); margin-bottom:12px; }
+.bar-copy .text-link { margin-top:12px; }
+.bar-letter { margin:28px 0; padding:8px 0 8px clamp(18px,2vw,35px); border-left:2px solid var(--ember); }
+.bar-letter h4 { font:500 clamp(21px,2vw,31px)/1.55 var(--mincho); margin-bottom:16px; }
+@media(max-width:760px) { .bar-feature { grid-template-columns:minmax(0,1fr); gap:22px; } }
