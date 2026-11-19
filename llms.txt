@@ -1,6 +1,6 @@
 # moment株式会社
 
-> Shape the Moment. 人の意志が世界を動かす。AIと開発、営業、マーケティング、教育の現場で、人が自分の願いを実際の行動に移せるよう取り組んでいます。
+> Shape the Moment. moment株式会社はAI開発を主力とし、業務に合った試作から実装、運用までを支援します。店舗コンサルティング、SNS運用支援、教育、バー事業にも取り組んでいます。
 
 ## 思想と会社
 
@@ -12,8 +12,9 @@
 ## 仕事と相談
 
 - [事業紹介](https://moment-tokyo.jp/services)
-- [AI研修・AI顧問・FDE・受託開発](https://moment-tokyo.jp/solutions)
-- [営業支援・デジタルマーケティング・教育事業](https://moment-tokyo.jp/business)
+- [AI開発・FDE・AI顧問・AI研修](https://moment-tokyo.jp/solutions)
+- [店舗コンサルティング（SEO・MEO・AIO）](https://moment-tokyo.jp/business#store-consulting)
+- [デジタルマーケティング・教育事業・バー事業](https://moment-tokyo.jp/business)
 - [西麻布のプライベートバー LBRORA](https://moment-tokyo.jp/#lbrora)
 - [Actify公式サイト](https://actify.moment-tokyo.jp/)
 - [お問い合わせ](https://moment-tokyo.jp/contact)
