@@ -298,3 +298,14 @@ details[open]>summary .plus::after { transform:rotate(0); }
   .text-link:hover .direction { transform:translateX(4px); }
   .quiet .direction { transition:none; }
 }
+.source-note { display: block; width: fit-content; font: 400 12px/1.8 var(--sans); margin-top: 7px; color: var(--soft); }
+.crossing { margin-top: clamp(38px,5vw,82px); aspect-ratio: 3.3; }
+.crossing img { object-position: 50% 54%; }
+.method.with-plate { padding-bottom: 0; }
+.human-landscape { padding-bottom: var(--space); }
+@media (max-width:700px) {
+  .crossing { aspect-ratio: 1.65; }
+}
+@media (prefers-reduced-motion:no-preference) {
+  .quiet .text-link:hover .direction { transform: none; }
+}
