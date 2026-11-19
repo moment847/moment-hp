@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://moment-tokyo.jp/</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/message</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/solutions</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/business</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/services</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/about</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/careers</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/works</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/development</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/news</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/privacy</loc><lastmod>2026-11-19</lastmod></url>
-  <url><loc>https://moment-tokyo.jp/contact</loc><lastmod>2026-11-19</lastmod></url>
-</urlset>
+  <url><loc>https://moment-tokyo.jp/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/services.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/development.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/works.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/about.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/news.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/careers.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/contact.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/privacy.html</loc><lastmod>2026-10-03</lastmod></url>
+  <url><loc>https://moment-tokyo.jp/message.html</loc><lastmod>2026-10-08</lastmod></url>
+<url><loc>https://moment-tokyo.jp/solutions</loc></url><url><loc>https://moment-tokyo.jp/business</loc></url></urlset>
